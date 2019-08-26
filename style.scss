@@ -1,0 +1,58 @@
+
+
+body {
+    h1{
+        color: coral;
+        display: inline;
+    }
+}
+
+.header-container {
+    border-bottom: 1px solid black;   
+}
+
+.button1 {
+    float: right;
+    padding: 1px 20px;
+    border-radius: 9px;
+    font-family: sans-serif;
+    color: black;
+    background-color: #4eb5f1;
+
+    &:hover {
+        background-color: aqua;
+
+    &:active {
+        background-color: azure;
+    }
+  }
+}
+
+.box {
+    width: 100%;
+text-align: center;
+
+
+&-product {
+    display: inline-block;
+    border: 1px solid black;   
+    margin: 1rem;
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+     
+.name {
+    display: block;    
+} 
+
+.number {
+    display: block;
+}
+
+.price {
+    display: block;
+    }
+  }   
+}
+    
+
